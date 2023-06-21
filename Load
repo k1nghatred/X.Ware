@@ -1,7 +1,0 @@
-local date = os.date("*t")
-if date.year <= 2023 and date.month <= 6 and date.day <= 23 and date.hour <= 20 then
---loadstring(game:HttpGet("https://raw.githubusercontent.com/k1nghatred/X.Ware/main/Load", true))()
-	print("YES")
-else
-    print("NO")
-end
